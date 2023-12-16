@@ -1,0 +1,44 @@
+@keyframes pulse {
+	from {
+		opacity: 0.1;
+		transform: scale(1);
+	}
+
+	to {
+		opacity: 0.2;
+		transform: scale(1.3);
+	}
+}
+
+@keyframes pulse-box {
+	from {
+		opacity: 0.1;
+		transform: scale(1);
+	}
+
+	to {
+		opacity: 0.2;
+		transform: scale(1.2);
+	}
+}
+
+
+@keyframes rotate-right {
+	from {
+		transform: rotate(0);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rotate-left {
+	from {
+		transform: rotate(0);
+	}
+
+	to {
+		transform: rotate(-360deg);
+	}
+}
