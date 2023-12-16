@@ -72,7 +72,7 @@ h2.company-name {
 		height: 60%;
 		background-size: cover;
 		background-position: center;
-		background-image: url(./img/small.jpeg);
+		background-image: url(img/small.jpeg);
 		filter: sepia();
 	}
 
@@ -484,7 +484,7 @@ h2.company-name {
 	.header {
 		&__img {
 			height: 100%;
-			background-image: url(./img/small.jpeg);
+			background-image: url(img/small.jpeg);
 		}
 		&__text {
 			p {
@@ -526,7 +526,7 @@ h2.company-name {
 			grid-row: 1/4;
 			grid-column: 2/3;
 			height: 100%;
-			background-image: url(./img/big.jpeg);
+			background-image: url(img/big.jpeg);
 		}
 
 		&__arrow {
